@@ -7,8 +7,8 @@
  int sub(int a, int b){
     return a-b;
  }
- int mult(){
-
+ int mult(int a,int b){
+  return a*b;
  }
 
  int div(){
@@ -32,5 +32,6 @@ int main(){
 
     printf("Addition of two numbers is: %d\n" ,add(a,b));
     printf("Subtraction of two numbers is: %d" ,sub(a,b));
+    printf("Mulitpilcation of two numbers is: %d" ,mult(a,b));
      
 }
