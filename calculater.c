@@ -4,8 +4,8 @@
  int add(int a, int b){
      return a+b;
  }
- int sub(){
-
+ int sub(int a, int b){
+    return a-b;
  }
  int mult(){
 
@@ -30,6 +30,7 @@ int main(){
 
 
 
-    printf("Addition of two numbers is:" ,add(a,b));
+    printf("Addition of two numbers is: %d\n" ,add(a,b));
+    printf("Subtraction of two numbers is: %d" ,sub(a,b));
      
 }
